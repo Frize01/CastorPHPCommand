@@ -1,0 +1,6 @@
+services:
+  usine-castor:
+    build: .
+    # On connecte le dossier actuel de ton PC au dossier /app du conteneur
+    volumes:
+      - .:/app
